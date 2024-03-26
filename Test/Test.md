@@ -18,7 +18,7 @@ print_r($arr);
 
 
 
-##### 插入图片方式一：![内容](图片路径)
+##### 插入图片方式一：`![图片不显示时的文本内容](图片路径)`
 
 ![Test](../Images/Test.jpg)
 
@@ -36,9 +36,11 @@ _这是斜体的表示_  用*或者_包围起来
 
 [这是一个超链接的表示，跳转到Google](https://www.google.com/)
 
+直接使用`html`的`a`标签语句，设置`target`为`_blank`可以打开新的标签页，例如： <a href="https://www.google.com/" target="_blank">打开Google</a>
 
 
-##### 图片引入方式二：直接<img src ="">
+
+##### 图片引入方式二：直接`<img src ="图片路径" title="图片不显示时的文本内容">`
 
 <img src="../Images/Test.jpg"/>
 
